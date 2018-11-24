@@ -43,10 +43,10 @@ var database = firebase.database()
     alert("Train successfully added");
   
     // Clears all of the text-boxes
-    // $("#train-name-input").val("");
-    // $("#destination-input").val("");
-    // $("#start-input").val("");
-    // $("#rate-input").val("");
+    $("#train-name-input").val("");
+    $("#destination-input").val("");
+    $("#start-input").val("");
+    $("#rate-input").val("");
   });
   
   // 3. Create Firebase event for adding trains to the database and a row in the html when a user adds an entry
@@ -108,6 +108,6 @@ var database = firebase.database()
     $("#train-table").append(newRow);
   });
   
-  // Example Time Math
+
   // --------------------------------------------------
   

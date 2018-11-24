@@ -1,0 +1,30 @@
+body{
+    color: pink;
+    background-image: url("http://wp.widewallpapers.net/2k/railroad/japan-high-speed-trains/1280x800/japan-high-speed-train-1280x800-018.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+table{
+    margin: 0 auto;
+    padding: 20px;
+    background: lightblue;
+    border-style: dashed;
+    border-color: red;
+}
+
+th {
+    color: slategray;
+    text-decoration: underline;
+
+}
+td {
+    color: darkblue;
+}
+form {
+    background: cornflowerblue;
+    width: 35%;
+    border-radius: 10%;
+    padding: 70px;
+    margin: 0 auto;
+}
