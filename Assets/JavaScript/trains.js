@@ -99,7 +99,7 @@ var database = firebase.database()
       $("<td>").text(trnName),
       $("<td>").text(trnDestination),
       $("<td>").text(trnRate),
-      $("<td>").text(moment(nextTrain).format("hh:mm A")),
+      $("<td>").text(moment(nextTrain).format("hh:mm A MM/DD/YYYY")),
       $("<td>").text(tMinutesTillTrain),
     //   $("<td>").text(empBilled)
     );
